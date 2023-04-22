@@ -29,8 +29,8 @@ local OrionLib = {
 		}
 	},
 	SelectedTheme = "DarkRed",
-	Folder = nil,
-	SaveCfg = false
+	Folder = "DevilNetWork OrionLib",
+	SaveCfg = true
 }
 
 --Feather Icons https://github.com/evoincorp/lucideblox/tree/master/src/modules/util - Created by 7kayoh
