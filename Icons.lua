@@ -1,7 +1,7 @@
-icons = {
-    ["aperture"] = "rbxassetid://7733666258"
-  }
-    "bug": "rbxassetid://7733701545",
+Icons = {
+    ["aperture"] = "rbxassetid://7733666258",
+    ["bug"] = "rbxassetid://7733701545",
+}
     "chevrons-down-up": "rbxassetid://7733720483",
     "clock-6": "rbxassetid://8997384977",
     "egg": "rbxassetid://8997385940",
