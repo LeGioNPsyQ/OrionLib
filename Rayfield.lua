@@ -99,7 +99,7 @@ local RayfieldLibrary = {
 			InputStroke = Color3.fromRGB(19, 65, 31),
 			PlaceholderColor = Color3.fromRGB(178, 178, 178)
 		},
-    DarkRed = {
+		DarkRed = {
 			TextFont = "Default", -- Default will use the various font faces used across Rayfield
 			TextColor = Color3.fromRGB(240, 240, 240),
 
