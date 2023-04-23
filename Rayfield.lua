@@ -16,34 +16,6 @@ local RayfieldFolder = "DevilNetwork Rayfield"
 local ConfigurationFolder = RayfieldFolder.."/Configurations"
 local ConfigurationExtension = ".rfld"
 
-local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/UI-Interface/CustomFIeld/main/RayField.lua'))()
-local function Notify(Message, Duration)
-	Rayfield:Notify({
-		Title = "👽 DevilNetWork",
-		Content = Message,
-		Duration = Duration or 5,
-		Image = 4483362458,
-		Actions = {},
-	})
-end
-local function CreateWindow()
-	repeat task.wait() until VCurrentVersion
-
-	local Window = Rayfield:CreateWindow({
-		Name = "👽 DevilNetWork - "..game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name.." - "..VCurrentVersion,
-		LoadingTitle = "👽 DevilNetWork",
-		LoadingSubtitle = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name,
-		ConfigurationSaving = {
-			Enabled = true,
-			FolderName = "DevilNetWork",
-			FileName = game.PlaceId.."-"..Player.Name
-		}
-	})		
-		Rayfield:LoadConfiguration()
-	end)
-
-	return Window
-end
 
 local RayfieldLibrary = {
 	Flags = {},
