@@ -22,15 +22,15 @@ local RayfieldLibrary = {
 	Flags = {},
 	Theme = {
 		Default = {
-			TextFont = "Default", -- Default will use the various font faces used across Rayfield
+			TextFont = "Gotham", -- Default will use the various font faces used across Rayfield
 			TextColor = Color3.fromRGB(240, 240, 240),
 
 			Background = Color3.fromRGB(0, 0, 0),
 			Topbar = Color3.fromRGB(0, 0, 0),
-			Shadow = Color3.fromRGB(20, 20, 20),
+			Shadow = Color3.fromRGB(0, 0, 0),
 
-			NotificationBackground = Color3.fromRGB(20, 20, 20),
-			NotificationActionsBackground = Color3.fromRGB(230, 230, 230),
+			NotificationBackground = Color3.fromRGB(0, 0, 0),
+			NotificationActionsBackground = Color3.fromRGB(0, 0, 0),
 
 			TabBackground = Color3.fromRGB(80, 20, 20),
 			TabStroke = Color3.fromRGB(150, 50, 50),
@@ -44,21 +44,21 @@ local RayfieldLibrary = {
 			ElementStroke = Color3.fromRGB(50, 50, 50),
 			SecondaryElementStroke = Color3.fromRGB(255, 0, 0), -- For labels and paragraphs
 
-			SliderBackground = Color3.fromRGB(43, 105, 159),
+			SliderBackground = Color3.fromRGB(0, 0, 0),
 			SliderProgress = Color3.fromRGB(43, 105, 159),
 			SliderStroke = Color3.fromRGB(48, 119, 177),
 
-			ToggleBackground = Color3.fromRGB(30, 30, 30),
-			ToggleEnabled = Color3.fromRGB(0, 146, 214),
-			ToggleDisabled = Color3.fromRGB(100, 100, 100),
-			ToggleEnabledStroke = Color3.fromRGB(0, 170, 255),
-			ToggleDisabledStroke = Color3.fromRGB(125, 125, 125),
-			ToggleEnabledOuterStroke = Color3.fromRGB(100, 100, 100),
-			ToggleDisabledOuterStroke = Color3.fromRGB(65, 65, 65),
+			ToggleBackground = Color3.fromRGB(0, 0, 0),
+			ToggleEnabled = Color3.fromRGB(0, 255, 0),
+			ToggleDisabled = Color3.fromRGB(255, 0, 0),
+			ToggleEnabledStroke = Color3.fromRGB(0, 255, 255),
+			ToggleDisabledStroke = Color3.fromRGB(255, 125, 125),
+			ToggleEnabledOuterStroke = Color3.fromRGB(100, 255, 100),
+			ToggleDisabledOuterStroke = Color3.fromRGB(255, 65, 65),
 
-			InputBackground = Color3.fromRGB(30, 30, 30),
+			InputBackground = Color3.fromRGB(0, 0, 0),
 			InputStroke = Color3.fromRGB(65, 65, 65),
-			PlaceholderColor = Color3.fromRGB(178, 178, 178)
+			PlaceholderColor = Color3.fromRGB(0, 0, 0)
 		},
 		Light = {
 			TextFont = "Gotham", -- Default will use the various font faces used across Rayfield
