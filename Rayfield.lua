@@ -38,7 +38,7 @@ local RayfieldLibrary = {
 			TabTextColor = Color3.fromRGB(240, 240, 240),
 			SelectedTabTextColor = Color3.fromRGB(50, 100, 50),
 
-			ElementBackground = Color3.fromRGB(50, 50, 50),
+			ElementBackground = Color3.fromRGB(20, 20, 20),
 			ElementBackgroundHover = Color3.fromRGB(180, 40, 40),
 			SecondaryElementBackground = Color3.fromRGB(0, 0, 0), -- For labels and paragraphs
 			ElementStroke = Color3.fromRGB(50, 50, 50),
