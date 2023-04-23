@@ -12,7 +12,7 @@ iRay  | Programming
 
 local Release = "Beta 8"
 local NotificationDuration = 6.5
-local RayfieldFolder = "DevilNetwork Rayfield"
+local RayfieldFolder = "DevilNetwork Hub"
 local ConfigurationFolder = RayfieldFolder.."/Configurations"
 local ConfigurationExtension = ".rfld"
 
